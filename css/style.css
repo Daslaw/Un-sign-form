@@ -71,7 +71,12 @@ header .head-links ul li{
     transform: translate(-50%, -50%);
     width: 80%;
 }
-   
+.form-section h2{
+    color: #00121b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
    .group {
     margin-bottom: 10px;
    }
@@ -102,6 +107,7 @@ header .head-links ul li{
     border:0;
     font-size: 18px;
     font-weight: 200;
+    cursor: pointer;
    }
    
    .m20 {
@@ -111,7 +117,8 @@ header .head-links ul li{
 .link {
     text-decoration: none;
     color: silver;
-    font-weight: 300;
+    font-weight: 150px;
+    border-radius: 33px;
    }
    .link:hover{
        background-color: #ff9800;
